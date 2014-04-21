@@ -1,0 +1,111 @@
+<head>
+  <title>email-infrastructure</title>
+</head>
+
+<body>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <div class="container">
+    <h1>Green Eggs and Spam</h1>
+    <hr>
+    <div class="row">
+      <div class="col col-md-12">
+        <h4>Basic Email Form</h4>
+      </div>
+      <div class="col col-md-6">
+        <div class="form-group {{recipientAlertLevel}}">
+          <input id="recipientEmailAddressInput" type="text" class="form-control error" placeholder="recipient@somewhere.com" />
+        </div>
+      </div>
+      <div class="col col-md-6">
+        <div class="form-group {{senderAlertLevel}}">
+          <input id="senderEmailAddressInput" type="text" class="form-control" placeholder="sender@somewherelese.com" />
+        </div>
+      </div>
+    </div>
+    <div class="form-group {{subjectAlertLevel}}">
+      <input id="subjectInput" type="text" class="form-control" placeholder="Subject" />
+    </div>
+    <div class="form-group {{textAlertLevel}}">
+      <textarea id="textInput" type="textarea" class="form-control" placeholder="Lorem ipsum..."></textarea>
+    </div>
+    <button id="sendButton" class="btn btn-info">Send!</button>
+    <hr>
+
+
+    <div class="row">
+      <div class="col col-md-12">
+        <h4>Email Template</h4>
+      </div>
+      <div class="col col-md-12">
+        <div class="form-group {{alertLevel}}">
+          <input id="spamRecipientInput" type="text" class="form-control" placeholder="sender@somewhere.net">
+        </div>
+      </div>
+      <div class="col col-md-4">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Email Template Blue
+          </div>
+          <div class="panel-body">
+            <b>sender:</b> nobody@nowhere.com
+            <br>
+            <b>subject: </b> You have mail.
+            <hr>
+              <p>Integer tincidunt euismod congue. Duis convallis sapien ut odio dignissim sagittis. Nunc sit amet mi nec tortor egestas sagittis ac quis est. Vivamus convallis dui in tellus sodales, sed facilisis nisl dictum.</p>
+              <p>Sed velit neque, commodo a venenatis eget, interdum nec mauris. Proin magna elit, condimentum in lacinia in, viverra et metus.</p>
+              <p>Duis sed velit in magna vestibulum ultrices at vitae tortor. Nulla pharetra gravida venenatis. Fusce at ultrices sem. Nulla venenatis neque feugiat, porta nibh nec, interdum est. Vestibulum scelerisque eros vitae risus malesuada fermentum ac a est.</p>
+
+            <hr>
+            <button id="spamButtonA" class="btn btn-info">Send Blue Spam!</button>
+          </div>
+        </div>
+
+      </div>
+      <div class="col col-md-4">
+        <div class="panel panel-danger">
+          <div class="panel-heading">
+            Email Template Red
+          </div>
+          <div class="panel-body">
+            <b>sender:</b> nobody@nowhere.com
+            <br>
+            <b>subject: </b> You have spam.
+            <hr>
+            <p>Integer tincidunt euismod congue. Duis convallis sapien ut odio dignissim sagittis. Nunc sit amet mi nec tortor egestas sagittis ac quis est. Vivamus convallis dui in tellus sodales, sed facilisis nisl dictum.</p>
+
+            <img class="fullwidth" src="/images/spam-can.jpg" alt="" />
+            <button id="spamButtonB" class="btn btn-info">Send Red Spam!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col col-md-4">
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            Email Template Green
+          </div>
+          <div class="panel-body">
+            <b>sender:</b> nobody@nowhere.com
+            <br>
+            <b>subject: </b> You have green eggs and spam!
+            <hr>
+              <p>Sed velit neque, commodo a venenatis eget, interdum nec mauris. Proin magna elit, condimentum in lacinia in, viverra et metus.</p>
+            <hr>
+            <img class="fullwidth" src="/images/green-eggs-and-ham.jpg" alt="" />
+
+            <hr>
+            <button id="spamButtonC" class="btn btn-info">Send Green Spam!</button>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+</template>
