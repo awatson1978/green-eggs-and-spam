@@ -8,7 +8,7 @@ Installation
 ------------------------
 
 
-````js
+````sh
 # Should be as simple as cloning the repository...  
 git clone https://github.com/awatson1978/green-eggs-spam.git
 
