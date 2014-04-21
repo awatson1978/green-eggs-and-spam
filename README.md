@@ -1,7 +1,7 @@
 green-eggs-and-spam
 ===================
 
-Meteor Email API sample applet.
+Meteor Email API sample applet.  Demo available at [http://green-eggs-and-spam.meteor.com/](http://green-eggs-and-spam.meteor.com/)  
 
 
 Installation  
