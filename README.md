@@ -6,7 +6,7 @@ Meteor Email API sample applet.
 
 Installation  
 ------------------------
-
+Download and starting spamming people.  Enjoy your spam!  
 
 ````sh
 # Should be as simple as cloning the repository...  
