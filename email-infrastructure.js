@@ -10,7 +10,7 @@ if (Meteor.isClient) {
   };
   Template.hello.alertLevel = function(){
     console.log('Template.hello.alertLevel: ' + Session.get('alertLevel'));
-    return Session.get('alertLevel');
+    return Session.get('spamRecipientInputAlert');
   };
 
 
