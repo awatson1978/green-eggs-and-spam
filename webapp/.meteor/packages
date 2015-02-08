@@ -14,4 +14,4 @@ nemo64:bootstrap
 natestrauser:font-awesome
 
 clinical:ui-vocabulary
-clinical:nightwatch
+clinical:nightwatch@1.5.1
