@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="analytics.walkthrough"
+             errors="0"
+             failures="0"
+             tests="52">
+  
+  <testsuite errors="0" failures="0" hostname="" id=""
+    name="App Layout" package="analytics.walkthrough" skipped="0"
+    tests="52" time="" timestamp="">
+    
+    
+      <testcase name="Element &lt;body&gt; was visible after 441 milliseconds.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#navbarHeader&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#navbarBrandLink&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#getTheCodeLink&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#appBody&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#appLayout&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dashboardPage&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartPanel&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartTitle&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChart&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nvd3&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g rect&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-x&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-y&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g .nv-groups&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g .nv-scatterWrap&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g .nv-scatterWrap .nv-scatter&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g .nv-scatterWrap .nv-scatter g&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g .nv-scatterWrap .nv-scatter g .nv-groups&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g .nv-scatterWrap .nv-scatter g .nv-groups&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g .nv-scatterWrap .nv-scatter g .nv-groups .nv-group&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g .nv-scatterWrap .nv-scatter g .nv-groups .nv-series-0&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g .nv-scatterWrap .nv-scatter g .nv-groups .nv-series-0 circle&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g .nv-scatterWrap .nv-scatter g .nv-groups .nv-series-0 .nv-point-0&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g .nv-scatterWrap .nv-scatter g .nv-groups .nv-series-0 .nv-point-1&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g .nv-scatterWrap .nv-scatter g .nv-groups .nv-series-0 .nv-point-2&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataLineChartCanvas .nv-lineChart g .nv-linesWrap .nvd3 g .nv-scatterWrap .nv-scatter g .nv-groups .nv-series-0 .nv-point-3&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataTabelPanel&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataTable&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataTableIdColumn&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataTableTimestampColumn&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#dataTableValueColumn&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#navbarFooter&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#addValueButton&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#totalLabel&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#totalText&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#findLabel&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#findText&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#findOneLabel&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#findOneText&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#insertLabel&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#insertText&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#updateLabel&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#updateText&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#removeLabel&gt; is present.">
+        
+        
+      </testcase>
+    
+      <testcase name="Testing if element &lt;#removeText&gt; is present.">
+        
+        
+      </testcase>
+    
+    
+    </testsuite>
+  
+</testsuites>

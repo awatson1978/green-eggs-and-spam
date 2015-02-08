@@ -3,11 +3,17 @@
 </head>
 
 <body>
-  {{> hello}}
+  <div id="mainLayout">
+    <main id="mainPanel">
+      {{> navbarHeader}}
+      {{> emailPage}}
+      {{> navbarFooter}}
+    </main>
+  </div>
 </body>
 
-<template name="hello">
-  <div class="container">
+<template name="emailPage">
+  <div id="emailPage" class="page container">
     <div class="row">
       <h1>Green Eggs and Spam</h1>
     </div>

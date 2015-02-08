@@ -5,34 +5,34 @@ if (Meteor.isClient) {
   Session.setDefault('subjectInputAlert', '');
   Session.setDefault('textInputAlert', '');
 
-  Template.hello.greeting = function () {
+  Template.emailPage.greeting = function () {
     return "Welcome to email-infrastructure.";
   };
-  Template.hello.alertLevel = function(){
-    console.log('Template.hello.alertLevel: ' + Session.get('alertLevel'));
+  Template.emailPage.alertLevel = function(){
+    console.log('Template.emailPage.alertLevel: ' + Session.get('alertLevel'));
     return Session.get('spamRecipientInputAlert');
   };
 
 
-  Template.hello.senderAlertLevel = function(){
-    console.log('Template.hello.senderAlertLevel: ' + Session.get('senderEmailAddressInputAlert'));
+  Template.emailPage.senderAlertLevel = function(){
+    console.log('Template.emailPage.senderAlertLevel: ' + Session.get('senderEmailAddressInputAlert'));
     return Session.get('senderEmailAddressInputAlert');
   };
-  Template.hello.recipientAlertLevel = function(){
-    console.log('Template.hello.recipientAlertLevel: ' + Session.get('recipientEmailAddressInputAlert'));
+  Template.emailPage.recipientAlertLevel = function(){
+    console.log('Template.emailPage.recipientAlertLevel: ' + Session.get('recipientEmailAddressInputAlert'));
     return Session.get('recipientEmailAddressInputAlert');
   };
-  Template.hello.subjectAlertLevel = function(){
-    console.log('Template.hello.subjectAlertLevel: ' + Session.get('subjectInputAlert'));
+  Template.emailPage.subjectAlertLevel = function(){
+    console.log('Template.emailPage.subjectAlertLevel: ' + Session.get('subjectInputAlert'));
     return Session.get('subjectInputAlert');
   };
-  Template.hello.textAlertLevel = function(){
-    console.log('Template.hello.textAlertLevel: ' + Session.get('textInputAlert'));
+  Template.emailPage.textAlertLevel = function(){
+    console.log('Template.emailPage.textAlertLevel: ' + Session.get('textInputAlert'));
     return Session.get('textInputAlert');
   };
 
 
-  Template.hello.events({
+  Template.emailPage.events({
     'keyup #recipientEmailAddressInput':function(){
       Session.set('recipientEmailAddressInputAlert', '');
     },
